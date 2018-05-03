@@ -2,67 +2,157 @@
   <head>
     <title>Anita's Kitchen </title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="js/bootstrap.js"></script>
     <link href="css/custom_stylesheet.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid">
-      <img src="images/backgrounds/landing.jpg" class="img-fluid" alt="Background">
-      <div class="row no-gutters">
-        <div class="col-3">
-          <div class="col-3">AAAA</div>
-          <div class="w-100"></div>
-          <div class="col-3">BBBB</div>
-        </div>
-        <div class="col-3"><img src="images/foodtop/breakfast.jpg" class="img-fluid" alt="breakfast"></div>
-        <div class="col-3"><img src="images/foodtop/lunch.jpg" class="img-fluid" alt="Lunch"></div>
-        <div class="col-3"><img src="images/foodtop/dinner.jpg" class="img-fluid" alt="Dinner"></div>
-      </div>
-    </div>
     <div class="container-fluid">
-      <div class="row bg-white">
-        <div class="col-6 Fastfood">
-          <img src="images/fastFood1.jpg" class=""/><img src="images/fastFood2.jpg" class=""/>
-        </div>
-        <div class="col-6 ff_text">
-          <h2>Fast Food</h2>
-          <h4>You'll love our delicious fast food</h4>
-          <p class="text text-align-left"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a href="#" class="btn btn-outline-warning" role="button" aria-pressed="true">View gallery &rarr;</a>
-        </div>
-        <div class="col-6">
-          <span class="d-block p-4 bg-white"></span>
-          <h2>Drinks</h2>
-          <h4>We also produce delicious drinks</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-          <a href="#" class="btn btn-outline-warning" role="button" aria-pressed="true">View gallery &rarr;</a>
-        </div>
-        <div class="col-6">
-          <span class="d-block p-4 bg-white"></span>
-          <img src="images/drink1.jpg" class="img-fluid"/><img src="images/drink2.jpg" class="img-fluid"/>
-        </div>
-      </div>
-      <div class="row vdivide customers m-5 max-auto shadow-lg p-4 mb-4 bg-white ">
-        <div class="col-7 text-center">
-          <h5 class="text-warning font-weight-bold m-auto">Our Happy Customers</h5>
-          <h6 class="font-weight-bold">George Richard </h6>
-          <p>Great food! Menu is awesome, there foods are
-          not only great but also in the right price. I'll highly recommend
-          them :) </p>
-          <img src="images/customers/p1.png" class="" alt="person 1">
-          <img src="images/customers/p2.png" class="" alt="person 1">
-          <img src="images/customers/p3.png" class="" alt="person 1">
-        </div>
-        <div class="col-4 text-justify m-auto">
-          <h5 class="text-warning font-weight-bold">About Menu</h5>
-          <p>We are menu a little team of 7
-          members. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-          proiden.</p>
+      <div class="jumbotron-fluid landing">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class=" nav navbar-nav">
+              <li class="dropdown nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="text-center text-white">
+        <img src="images/logoBig.png" class="text-center" alt="">
+        <h3>We Provide The Best Food</h3>
+        <h3>At The <strong> Right Price</strong></h3>
         </div>
       </div>
-      <div class="row suscribe_section">
-        <img src="images/backgrounds/subscribe.jpg" class="" alt="subscribe background image">
+      <div class="jumbotron-fluid Mealtime">
+        <div class="row no-gutters meals">
+        <div class="col-3">
+          <div class="col-12 happy">Happy Hour
+          </div>
+          <div class="w-100"></div>
+          <div class="col-12 party">Party Time
+          </div>
+        </div>
+        <div class="col-3 text-center text-white breakfast overlay">
+          <h3 class="pt-5"><em>Breakfast</em></h3>
+        </div>
+        <div class="col-3 text-center text-white lunch overlay">
+          <h3 class="pt-5"><em>Lunch</em></h3>
+        </div>
+        <div class="col-3 text-center text-white dinner overlay">
+          <h3 class="pt-5"><em>Dinner</em></h3>
+        </div>
+      </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid fast_food_drinks">
+        <div class="row bg-white">
+          <div class="col-6 Fastfood shadow-lg mb-1 p-2">
+            <img src="images/fastFood1.jpg" class=""/><img src="images/fastFood2.jpg" class=""/>
+          </div>
+          <div class="col-6 ff_text">
+            <h2>Fast Food</h2>
+            <h4>You'll love our delicious fast food</h4>
+            <p class="text text-align-left"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn btn-outline-warning" role="button" aria-pressed="true">View gallery &rarr;</a>
+          </div>
+          <div class="col-6">
+            <span class="d-block p-4 bg-white"></span>
+            <h2>Drinks</h2>
+            <h4>We also produce delicious drinks</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <a href="#" class="btn btn-outline-warning" role="button" aria-pressed="true">View gallery &rarr;</a>
+          </div>
+          <div class="col-6 shadow-lg mb-1 p-2">
+            <span class="d-block p-4 bg-white"></span>
+            <img src="images/drink1.jpg" class="img-fluid"/><img src="images/drink2.jpg" class="img-fluid"/>
+          </div>
+        </div>
+      </div>
+      <!--Add Menu tabs using List>-->
+      <div class="jumbotron-fluid Menu-navbar">
+        <ul class=" row nav nav-tabs col-9" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active text-warning" id="FastFood-tab" data-toggle="tab" href="#home" role="tab" aria-controls="FastFood" aria-selected="true">Fast Food
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="Drinks-tab" data-toggle="tab" href="#drinks" role="tab" aria-controls="Drinks" aria-selected="false">Drinks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="Chicken-tab" data-toggle="tab" href="#chicken" role="tab" aria-controls="Chicken" aria-selected="false">Chicken</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="Rice-tab" data-toggle="tab" href="#chicken" role="tab" aria-controls="Rice" aria-selected="false">Rice</a>
+          </li>
+        </ul>
+        <div class="tab-content col-9" id="myTabContent">
+          <div class="tab-pane fade show active text-align-centre" id="FastFood" role="tabpanel" aria-labelledby="FastFood-tab">
+            <img src="images/fastfood/beefBurger.jpg" class="img-fluid col-3 ml-4 pt-4" alt="beefBurger">
+            <img src="images/fastfood/chickenBurger.jpg" class="img-fluid col-3 ml-4 pt-4" alt="chickenBurger">
+            <img src="images/fastfood/chickenPizza.jpg" class="img-fluid col-3 ml-4 pt-4" alt="chickenPizza">
+          </div>
+          <div class="tab-pane fade" id="Drinks" role="tabpanel" aria-labelledby="Drinks-tab">...</div>
+          <div class="tab-pane fade" id="Chicken" role="tabpanel" aria-labelledby="Chicken-tab">...</div>
+          <div class="tab-pane fade" id="Rice" role="tabpanel" aria-labelledby="Rice-tab">...</div>
+        </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid bg-white happy_customers">
+        <div class="row vdivide customers m-5 shadow-lg p-4 mb-4 ">
+          <div class="col-7 text-center">
+            <h5 class="text-warning font-weight-bold m-auto">Our Happy Customers</h5>
+            <h6 class="font-weight-bold">George Richard </h6>
+            <p>Great food! Menu is awesome, there foods are
+            not only great but also in the right price. I'll highly recommend
+            them :) </p>
+            <img src="images/customers/p1.png" class="" alt="person 1">
+            <img src="images/customers/p2.png" class="" alt="person 1">
+            <img src="images/customers/p3.png" class="" alt="person 1">
+          </div>
+          <div class="col-4 text-justify m-auto">
+            <h5 class="text-warning font-weight-bold">About Menu</h5>
+            <p>We are menu a little team of 7
+            members. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            proiden.</p>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid tomatoes">
+        <div class=" row centered text-white">
+          <form class=" form-inline">
+            <span><h5 class="pb-4 pt-4 mr-4 mt-5 ">Get your daily food items delivered to your email</h5></span>
+            <div class="form-group form">
+              <label for="ControlInput"></label>
+              <input type="email" class="form-control mr-2" id="ControlInput" placeholder="Your email">
+              <button class="btn btn-warning" type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid logos_bottom">
+        <div class="row text-center">
+          <div class="col-12 mx-auto d-block">
+          <p class="text-white "><img src="images/footerlogos/logo_white.png" class="">  MENU</p>
+          <p class="text-white">Thats What We are</p>
+          </div>
+        </div>
+        <div class="row no-gutters text-center">
+          <div class="col-3 mx-auto">
+            <img src="images/footerlogos/facebook.png" class="img-fluid">
+            <img src="images/footerlogos/twitter.png" class="img-fluid">
+            <img src="images/footerlogos/pinterest.png" class="img-fluid">
+            <p class="col-12 text-white mx-auto pt-2"> 2016 Menu Restaurant </p>
+        </div>
       </div>
     </div>
   </body>
