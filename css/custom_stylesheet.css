@@ -1,3 +1,15 @@
+body{
+  font-family: 'Abel';
+  font-size: 20px;
+}
+.landing{
+  width: 100%;
+  height: 450px;
+  margin: auto;
+  background-image: url("../images/backgrounds/landing.jpg");
+  background-size: cover;
+}
+
 .row.vdivide [class*='col-']:not(:last-child):after {
   background: #e0e0e0;
   width: 1px;
@@ -8,4 +20,123 @@
   bottom: 0;
   right: 0;
   min-height: 70px;
+}
+.new{
+    background-color: #F15A29;
+}
+.tomatoes{
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  background-image: url("../images/backgrounds/subscribe.jpg");
+  background-size: cover;
+}
+.centered{
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+.logos_bottom{
+  background-color: #F15A29;
+}
+.happy{
+  height:50%;
+}
+.party{
+  background-color: #F15A29;
+  height: 50%;
+}
+.breakfast{
+  width: 100%;
+  height: 153px;
+  margin: auto;
+  background-image: url("../images/foodtop/breakfast.jpg");
+  background-size: cover;
+}
+.lunch{
+  width: 100%;
+  height: 153px;
+  margin: auto;
+  background-image: url("../images/foodtop/lunch.jpg");
+  background-size: cover;
+}
+.dinner{
+  width: 100%;
+  height: 153px;
+  margin: auto;
+  background-image: url("../images/foodtop/dinner.jpg");
+  background-size: cover;
+}
+.overlay{
+  position: relative;
+}
+.overlay:after{
+  position: absolute;
+  content:"";
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.overlay:hover:after{
+  opacity: .5;
+}
+.breakfast:after{
+  background-color: white;
+}
+.lunch:after{
+  background-color: white;
+}
+.dinner:after{
+  background-color: white;
+}
+.logos_bottom{
+  height: 255px;
+}
+.form{
+
+}
+.foodtabs{
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  background-image: url("../images/backgrounds/foodsBg.jpg");
+  background-size: cover;
+}
+.Menu-navbar{
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  background-image: url("../images/backgrounds/foodsBg.jpg");
+  background-size: cover;
+  padding-top:100px;
+  padding-left: 25px;
+}
+.nav-tabs{
+  background-color: #f3f3f3;
+  border: 2px solid #e7e7e7;
+  text-align: center;
+  width: 1031px;
+  margin:0 auto;
+
+
+}
+.tab-content{
+  background-color: white;
+  border: 2px solid #e7e7e7;
+  width: 1031px;
+  height: 250px;
+  margin:0 auto;
+}
+.nav-item{
+  width: 250px;
+
+}
+.nav-link{
+  color: black;
 }
